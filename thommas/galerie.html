@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gallerie de photos de Henry</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" href="style.css">
+	
+	<!-- Add jQuery library -->
+	<script type="text/javascript" src="lib/jquery-1.10.1.min.js"></script>
+
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.5"></script>
+	<link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+	<!-- Add Button helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="source/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+	<script type="text/javascript" src="source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+
+	<!-- Add Thumbnail helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+	<script type="text/javascript" src="source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('.fancybox').fancybox();
+	
+			$('.fancybox-buttons').fancybox({
+				openEffect  : 'none',
+				closeEffect : 'none',
+
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					buttons	: {}
+				},
+
+				afterLoad : function() {
+					this.title = 'Image ' + (this.index + 1) + ' of ' + this.group.length + (this.title ? ' - ' + this.title : '');
+				}
+			});
+			$('.fancybox-media')
+				.attr('rel', 'media-gallery')
+				.fancybox({
+					openEffect : 'none',
+					closeEffect : 'none',
+					prevEffect : 'none',
+					nextEffect : 'none',
+
+					arrows : false,
+					helpers : {
+						media : {},
+						buttons : {}
+					}
+				});
+		});
+	</script>
+</head>
+<body>
+<div id="block1">
+<div id="entete">
+	<h1>Portfolio de Henry<h2>
+</div>
+
+<div id="menu">
+	<a href="index.html">Présentation</a>
+	<a href="galerie.html">Galerie</a>
+	<a href="contact.html">Contact</a>
+</div>
+</div>
+<br/>
+	<h3 id="nompage">Galerie photo</h3>
+	
+	<p>
+	<div id="galerie">
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/1_b.jpg"><img src="img/1_s.jpg" alt="" /></a>
+
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/2_b.jpg"><img src="img/2_s.jpg" alt="" /></a>
+
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/3_b.jpg"><img src="img/3_s.jpg" alt="" /></a>
+
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/4_b.jpg"><img src="img/4_s.jpg" alt="" /></a>
+		
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/5_b.jpg"><img src="img/5_s.jpg" alt="" /></a>
+		
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/6_b.jpg"><img src="img/6_s.jpg" alt="" /></a>
+		
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/7_b.jpg"><img src="img/7_s.jpg" alt="" /></a>
+		
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/8_b.jpg"><img src="img/8_s.jpg" alt="" /></a>
+		
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/9_b.jpg"><img src="img/9_s.jpg" alt="" /></a>
+		
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/10_b.jpg"><img src="img/10_s.jpg" alt="" /></a>
+
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/11_b.jpg"><img src="img/11_s.jpg" alt="" /></a>
+
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/12_b.jpg"><img src="img/12_s.jpg" alt="" /></a>
+
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/13_b.jpg"><img src="img/13_s.jpg" alt="" /></a>
+		
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/14_b.jpg"><img src="img/14_s.jpg" alt="" /></a>
+		
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/15_b.jpg"><img src="img/15_s.jpg" alt="" /></a>
+		
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/16_b.jpg"><img src="img/16_s.jpg" alt="" /></a>
+		
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/17_b.jpg"><img src="img/17_s.jpg" alt="" /></a>
+		
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/18_b.jpg"><img src="img/18_s.jpg" alt="" /></a>
+		
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/19_b.jpg"><img src="img/19_s.jpg" alt="" /></a>
+
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/20_b.jpg"><img src="img/20_s.jpg" alt="" /></a>
+
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/21_b.jpg"><img src="img/21_s.jpg" alt="" /></a>
+
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/22_b.jpg"><img src="img/22_s.jpg" alt="" /></a>
+		
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/23_b.jpg"><img src="img/23_s.jpg" alt="" /></a>
+		
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/24_b.jpg"><img src="img/24_s.jpg" alt="" /></a>
+		
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/25_b.jpg"><img src="img/25_s.jpg" alt="" /></a>
+		
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/26_b.jpg"><img src="img/26_s.jpg" alt="" /></a>
+		
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/27_b.jpg"><img src="img/27_s.jpg" alt="" /></a>
+		
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/28_b.jpg"><img src="img/28_s.jpg" alt="" /></a>
+
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/29_b.jpg"><img src="img/29_s.jpg" alt="" /></a>
+
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/30_b.jpg"><img src="img/30_s.jpg" alt="" /></a>
+
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/31_b.jpg"><img src="img/31_s.jpg" alt="" /></a>
+		
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/32_b.jpg"><img src="img/32_s.jpg" alt="" /></a>
+		
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/33_b.jpg"><img src="img/33_s.jpg" alt="" /></a>
+		
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/34_b.jpg"><img src="img/34_s.jpg" alt="" /></a>
+		
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/35_b.jpg"><img src="img/35_s.jpg" alt="" /></a>
+		
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/36_b.jpg"><img src="img/36_s.jpg" alt="" /></a>
+		
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/37_b.jpg"><img src="img/37_s.jpg" alt="" /></a>
+
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/38_b.jpg"><img src="img/38_s.jpg" alt="" /></a>
+
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/39_b.jpg"><img src="img/39_s.jpg" alt="" /></a>
+
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/40_b.jpg"><img src="img/40_s.jpg" alt="" /></a>
+		
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/41_b.jpg"><img src="img/41_s.jpg" alt="" /></a>
+		
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/42_b.jpg"><img src="img/42_s.jpg" alt="" /></a>
+		
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/43_b.jpg"><img src="img/43_s.jpg" alt="" /></a>
+		
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/44_b.jpg"><img src="img/44_s.jpg" alt="" /></a>
+		
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/45_b.jpg"><img src="img/45_s.jpg" alt="" /></a>
+		
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/46_b.jpg"><img src="img/46_s.jpg" alt="" /></a>
+
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/47_b.jpg"><img src="img/47_s.jpg" alt="" /></a>
+		
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/48_b.jpg"><img src="img/48_s.jpg" alt="" /></a>
+		
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/49_b.jpg"><img src="img/49_s.jpg" alt="" /></a>
+		
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/50_b.jpg"><img src="img/50_s.jpg" alt="" /></a>
+		
+		<a class="fancybox-buttons" data-fancybox-group="button" href="img/51_b.jpg"><img src="img/51_s.jpg" alt="" /></a>
+	</div>
+	</p>
+	<footer>
+		<p>Copyright © 2016</p>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,103 @@
+.fancybox-custom .fancybox-skin {
+			box-shadow: 0 0 50px #222;
+		}
+
+		#galerie {
+			max-width: 66.5vw;
+			margin: 0 auto;
+			margin-bottom: 10vw;
+		}
+		body{
+			margin:0;
+			padding:0;
+			font-family: 'Josefin Sans', sans-serif;
+		}
+		#menu{
+			text-align:center;
+			float:left;
+			inline:block;
+			background-color:black;
+			color:white;
+			position:center;
+			width:100%;
+			margin:0;
+			padding-bottom:1vw;
+			box-shadow: 1px 15px 20px #555;
+		}
+		#menu a {
+			text-decoration:none;
+			padding:1vw 1.5vw;
+			margin: 2px;
+			border-radius: 10px 0 0 0;
+			color:white;
+			border: 1px solid rgba(0,0,0,0);
+		}	
+		#menu a:hover {
+			text-decoration:none;
+			color: white;
+			border-style: solid;
+			border-color: #fff;
+			border-width: 1px 1px 0 1px;
+		}
+		#entete{
+			font-family: 'Fjalla One', sans-serif;
+			text-align:center;
+			color:white;
+			padding:2vw;
+			font-size:3vw;
+		}
+		#nompage{
+			text-decoration : underline;
+			margin-top:8vw;
+			margin-left:16vw;
+			font-size:3vw;
+		}
+		#block1{
+			background-color:black;
+		}
+		#contenu{
+			padding-left:16vw;
+			padding-right:15vw;
+			margin-bottom: 10vw;
+		}
+		#formulaire{
+			margin-left:29vw;	
+			margin-top:5vw;
+			margin-bottom: 10vw;
+		}
+		.champs{
+			margin-top:1vw;
+			font-size:1.5vw;
+		}
+		input, textarea, select {
+			padding:3px;
+			border:1px solid #606060;
+			border-radius:5px;
+			width:500px;
+			height:30px;
+			box-shadow:1px 1px 2px #C0C0C0 inset;
+		}
+		
+		.champs button{
+			background-color:#CECECE;
+			box-shadow:1px 1px 1px #606060 inset;
+			border-radius:10px;
+			height:25px;
+			font-family: 'Josefin Sans', sans-serif;
+		}
+		
+		.champs button:active{
+			background-color:#606060;
+			box-shadow:1px 1px 1px #606060 inset;
+		}
+		.champs button:hover{
+			background-color:#606060;
+			box-shadow:1px 1px 1px #606060 inset;
+		}
+		footer {
+			text-align: center;
+			color: white;
+			background-color: #000;
+			height: 40px;
+			padding-top: 10px;
+		}
